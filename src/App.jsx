@@ -135,7 +135,7 @@ const InlineStatInput = ({ player, statType, onUpdateStat, scoringSystem, onClos
                             <StatButton label={`+${twoValue} Mid Made`} onClick={() => onUpdateStat(player, 'shots', ['mid', 'made'])} isMake />
                             <StatButton label="Mid Miss" onClick={() => onUpdateStat(player, 'shots', ['mid', 'attempted'])} isMiss />
                             <StatButton label={`+${threeValue} Pts Made`} onClick={() => onUpdateStat(player, 'shots', ['three', 'made'])} isMake />
-                            <StatButton label="3 Pts Miss" onClick={() => onUpdateStat(player, 'shots', ['three', 'attempted'])} isMiss />
+                            <StatButton label={`+${threeValue} Pts Miss`} onClick={() => onUpdateStat(player, 'shots', ['three', 'attempted'])} isMiss />
                         </div>
                     </div>
                 );
